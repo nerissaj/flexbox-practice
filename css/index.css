@@ -127,3 +127,107 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.navigation {
+text-decoration: none;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+border: 1px solid black;
+margin: 20px auto;
+padding: 20px;;
+font-size:25px;
+background-color:dodgerblue;
+max-width:800px;
+}
+a{
+  color:white;
+}
+.header{
+  display:flex;
+  flex-flow:row wrap;
+  width: 600px;
+  height:300px;
+  border-bottom: 1px double black;
+  margin:20px auto;
+
+}
+h1{
+  font-size:45px;
+}
+p{
+  font-size: 25px;
+  padding:5px;
+}
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  max-width:100%;
+  margin:20px auto;
+  padding:15px;
+  align-content: space-between;
+}
+.first{
+  display:flex;
+  flex-direction:row;
+  border: 1px solid red;
+  max-width:400px;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:0 auto;
+}
+.card{
+display:flex;
+  justify-content:space-between;
+  width:300px;
+  height:300px;
+  padding:15px;
+  border:1px solid purple;
+  margin: 20px auto;
+}
+.first :nth-child(3){
+  background-color:orange;
+}
+.first :nth-child(4){
+  background-color: cornflowerblue;
+}
+.first :first-child{
+  background-color:white;
+  }
+  .first >:first-child{
+    background-color: chartreuse;
+}
+.first :nth-child(2){
+  background-color: cyan;
+}
+.second{
+  display:flex;
+  flex-direction:row;
+  border: 1px solid green;
+  max-width:400px;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:0 auto;
+}
+.second :nth-child(4){
+  background-color:orange;
+}
+.second :nth-child(3){
+  background-color: darkmagenta;
+}
+.second :first-child{
+  background-color: gold;
+  }
+  .second >:first-child{
+    background-color: chartreuse;
+}
+.second :nth-child(2){
+  background-color: cyan;
+}
+
+footer{
+  font-size:45px;
+  text-align: center;
+}
